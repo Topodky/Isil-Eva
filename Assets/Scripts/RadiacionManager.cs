@@ -52,4 +52,9 @@ public class RadiacionManager : MonoBehaviour
         Time.timeScale = 1f; // restaura el tiempo antes de recargar
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    public void MorirInstante()
+    {
+        muerto = true;
+        MostrarGameOver();
+    }
 }

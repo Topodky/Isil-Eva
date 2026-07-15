@@ -42,6 +42,6 @@ public class PausaManager : MonoBehaviour
     public void Salir()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(0); // carga la escena 0, que será el menú principal
+        SceneManager.LoadScene("Menu");
     }
 }
